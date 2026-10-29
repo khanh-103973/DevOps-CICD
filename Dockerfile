@@ -20,6 +20,6 @@ COPY templates/ ./templates/
 
 # Cổng ứng dụng Flask
 EXPOSE 5000
-
+    
 # Khởi chạy ứng dụng
 CMD ["python", "app.py"]
